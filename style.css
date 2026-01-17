@@ -11,6 +11,8 @@ body {
 }
 
 header {
+    padding: 0 120px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,8 +39,8 @@ nav ul a {
 }
 
 #hero {
-    
     padding: 120px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
