@@ -167,3 +167,39 @@ blockquote {
     font-weight: 700;
     align-self: flex-end;
 }
+
+#signup {
+    padding: 72px 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-card {
+    padding: 32px 0;
+    min-width: 900px;
+
+    gap: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 8px;
+
+    color: #F9FAF8;
+    background-color: #3882f6;
+}
+
+.signup-left h2,
+.signup-left p {
+    margin: 0;
+}
+
+.signup-left p {
+    font-weight: 18px;
+}
+
+.signup-right .signup-btn {
+    border: 2px solid #F9FAF8;
+}
