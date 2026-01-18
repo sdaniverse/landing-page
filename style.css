@@ -130,3 +130,40 @@ h1 {
     color: gray;
     text-align: center;
 }
+
+#quote {
+    padding: 96px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #E5E7EB;
+}
+
+#quote .quote-container {
+    display: flex;
+    max-width: 780px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote p,
+blockquote {
+    margin: 0;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: flex-end;
+}
